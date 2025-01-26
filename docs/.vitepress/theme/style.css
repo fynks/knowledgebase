@@ -134,5 +134,10 @@
  * Component: Custom Fonts
  * -------------------------------------------------------------------------- */
  .VPHero .name {
-  font-size: 50px;
+  font-size: 40px;
 }
+.VPHero .image {
+  max-width: 1500px;
+  width: 100%;
+}
+

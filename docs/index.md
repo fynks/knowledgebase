@@ -4,6 +4,9 @@ title: Home
 hero:
   name: Knowledge Base
   tagline: Linux, Windows, and tools documentation
+  image:
+    src: /images/logo.svg
+    alt: Site Logo
   actions:
     - theme: brand
       text: Get Started
