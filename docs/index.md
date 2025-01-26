@@ -1,0 +1,35 @@
+---
+layout: home
+title: Home
+hero:
+  name: Knowledge Base
+  tagline: Linux, Windows, and tools documentation
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /linux/Setup
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/fynks/configs
+
+features:
+  - icon: 🐧
+    title: Linux
+    details: Setup guides, Grub configuration, and Fish shell customization
+    link: /linux/Setup
+  
+  - icon: 🖥️
+    title: Windows
+    details: System activation and Winutil setup guides
+    link: /windows
+    
+  - icon: 🌐
+    title: Browsers
+    details: Firefox configuration and browser setup guides
+    link: /browsers
+    
+  - icon: 🛠️
+    title: Tools
+    details: Git, JDownloader, and Android configuration guides
+    link: /git
+---
