@@ -46,10 +46,10 @@ title: Android
 - [ROX](https://play.google.com/store/apps/details?id=com.jazz.rox)
 - [Daraz](https://play.google.com/store/apps/details?id=com.daraz.android)
 
-### Droid-ify
+## Droid-ify
 - TBD
 
-### Flash a custom recovery
+## Flash a custom recovery
 ```sh
 fastboot devices
 ```
@@ -58,6 +58,7 @@ fastboot flash recovery recovery.img
 ```
 > ⚠️ Warning: Never reboot into recovery using fastboot command
 
+## Media Management
 ### Finding .m4a songs from terminal
 ```sh
 find . -type f -name "*.m4a" > m4a.txt
@@ -67,9 +68,8 @@ find . -type f -name "*.m4a" > m4a.txt
 find . -type f \( -name "*.mp3" -o -name "*.m4a" -o -name "*.wav" \) > media_files.txt
 ```
 
-### HyperOS Debloating
-
-#### Automated Method
+## HyperOS Debloating
+### Automated Method
 ```bash
 git clone https://github.com/fynks/android-debloater.git
 cd android-debloater
@@ -77,9 +77,8 @@ chmod +x debloat.sh
 ./debloat.sh
 ```
 
-
-#### Manual Debloating Guide
-##### Safe to Remove
+### Manual Debloating Guide
+#### Safe to Remove
 - Analytics
 - App Vault
 - Backup
@@ -117,7 +116,7 @@ chmod +x debloat.sh
 - Xiaomi Sim Activate Service
 - Xiaomi Service Framework
 
-##### Critical System Apps
+#### Critical System Apps
 > ⚠️ Warning: Never remove these system apps:
 - **VsimCore** - Required for data usage 
 - **VsimCore** (Otherwise you won't get Data Usage on Control Centre tile)
