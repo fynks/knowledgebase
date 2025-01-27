@@ -2,7 +2,6 @@
 layout: doc
 title: Browsers
 ---
-
 ## Firefox Setup
 
 ### Customizations
