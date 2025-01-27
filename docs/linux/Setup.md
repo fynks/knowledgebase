@@ -6,7 +6,7 @@ title: Setup
 ### Arch Linux Setup
 
 ```sh
-git clone https://github.com/fynks/configs.git && cd configs/setup/ && sudo chmod +x ./setup.sh && sudo ./setup.sh
+git clone https://github.com/fynks/configs.git && cd configs/scripts/ && sudo chmod +x ./setup.sh && sudo ./setup.sh
 ```
 
 ### Manjaro Mirrors update
@@ -42,6 +42,6 @@ konsave -a manjaro-kde
 ```
 
 ### Host Blocking Setup
-- [HBlock](https://raw.githubusercontent.com/fynks/configs/main/setup/configs/hblock_sources.list)
+- [HBlock](https://raw.githubusercontent.com/fynks/configs/refs/heads/main/system/backups/hblock_sources.list)
 
 
