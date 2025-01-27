@@ -37,7 +37,7 @@ export default defineConfig({
         items: [
           { text: 'Android', link: '/android' },
           { text: 'Git', link: '/git' },
-          { text: 'JDownloader', link: '/Jdownloader2' }
+          { text: 'JDownloader', link: '/jdownloader2' }
         ]
       }
     ],
@@ -58,7 +58,7 @@ export default defineConfig({
         text: 'Tools & Apps',
         items: [
           { text: 'Git', link: '/git' },
-          { text: 'JDownloader', link: '/Jdownloader' }
+          { text: 'JDownloader', link: '/jdownloader2' }
         ]
       }
     ],
