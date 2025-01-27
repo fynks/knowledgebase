@@ -2,19 +2,19 @@
 layout: doc
 title: Setup
 ---
-
-### Arch Linux Setup
+# Manjaro Setup Guide
+## Setup Script
 
 ```sh
 git clone https://github.com/fynks/configs.git && cd configs/scripts/ && sudo chmod +x ./setup.sh && sudo ./setup.sh
 ```
 
-### Manjaro Mirrors update
+## Update Mirrors
 ```bash
 sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syu 
 ```
 
-### Chaotic AUR Setup
+## Chaotic AUR Setup
 - [Chaotic AUR Github](https://github.com/chaotic-aur)
 ```bash
 sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
@@ -31,7 +31,7 @@ sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.ta
 Include = /etc/pacman.d/chaotic-mirrorlist
 ```
 
-### KDE Configuration
+## KDE Configuration
 1. Import KDE configuration
 ```bash
 konsave -i manjaro-kde.knsv
@@ -41,7 +41,7 @@ konsave -i manjaro-kde.knsv
 konsave -a manjaro-kde
 ```
 
-### Host Blocking Setup
+## Host Blocking Setup
 - [HBlock](https://raw.githubusercontent.com/fynks/configs/refs/heads/main/system/backups/hblock_sources.list)
 
 

@@ -2,8 +2,8 @@
 layout: doc
 title: Grub
 ---
-
-### Enable GRUB Menu
+# Grub Guide
+## Enable GRUB Menu
 If GRUB menu is not showing during boot:
 
 1. Edit GRUB configuration:
@@ -19,7 +19,7 @@ GRUB_TIMEOUT_STYLE=menu
 sudo update-grub
 ```
 
-### Restore GRUB After Windows Installation
+## Restore GRUB After Windows Installation
 1. Boot into Manjaro live environment
 2. Open terminal & access system via chroot
 ```sh

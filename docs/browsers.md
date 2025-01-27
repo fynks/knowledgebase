@@ -2,8 +2,9 @@
 layout: doc
 title: Browsers
 ---
-## Firefox Setup
+# Browser Setup Guide
 
+## Firefox Setup
 ### Customizations
 - [Better-Fox](https://github.com/yokoffing/Betterfox/blob/main/user.js)
 - [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix/releases/latest)
@@ -54,7 +55,7 @@ https://google.com
 https://inoreader.com
 ```
 
-### Extensions
+## Extensions
 
 | **Extensions**     | **Firefox**                                                                       | **Chrome**                                                                                                  |
 | :----------------- | :-------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
@@ -75,7 +76,7 @@ https://inoreader.com
 - [Tampermonkey Script](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/tampermonkey_scripts.zip)
 
 
-### Userscripts
+## Userscripts
 - [Github Repo](https://github.com/fynks/userscripts)
 
 ### Blocklists
@@ -88,7 +89,7 @@ www.reddit.com,sh.reddit.com##award-button
 www.reddit.com##.promotedlink
 ```
 
-### Bookmarklets
+## Bookmarklets
 
 - G Translate
 ``` js

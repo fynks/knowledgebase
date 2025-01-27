@@ -4,7 +4,7 @@ title: Git
 ---
 # Git Guide
 
-### Initial Setup
+## Initial Setup
 1. Set you github username:
 ```bash
 git config --global user.name "John Doe"
@@ -14,7 +14,7 @@ git config --global user.name "John Doe"
 ```bash
 git config --global user.email "johndoe@email.com"
 ```
-### Fix Commit Author
+## Fix Commit Author
 If you have already committed and even after setting up the `username` and `email` you can't commit, run this from the local repo itself:
 ```bash
 # From within your repository

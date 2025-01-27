@@ -2,8 +2,9 @@
 layout: doc
 title: Fish Shell
 ---
+# Fish Shell Guide
 
-### Fish Shell Setup
+## Fish Shell Setup
 - Change to fish temporarily by running command: `fish`
 - Then install fisher and tide by running:
 
@@ -18,7 +19,7 @@ sudo chsh $USER -s /bin/fish
 ```
 - Logout and login again to see tha change.
   
-#### Fish aliasis
+## Fish aliasis
 | Alias          | Command                                                        |
 |----------------|----------------------------------------------------------------|
 | ..             | cd ..                                                          |

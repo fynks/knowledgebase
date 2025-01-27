@@ -2,8 +2,8 @@
 layout: doc
 title: Windows
 ---
-
-### Microsoft Activation Scripts
+# Windows Setup Guide
+## Microsoft Activation Scripts
 
 ```bash
 irm https://get.activated.win | iex
@@ -11,7 +11,7 @@ irm https://get.activated.win | iex
 
 - [Github for MAS](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-### Winutil by ChrisTitusTech
+## Winutil by ChrisTitusTech
 
 ```bash
 iwr -useb https://christitus.com/win | iex
@@ -19,7 +19,7 @@ iwr -useb https://christitus.com/win | iex
 
 - [Github for Winutil](https://github.com/ChrisTitusTech/winutil)
 
-### Applications
+## Applications
 
 | **Programs**        | **Link**                                                                                 |
 | :------------------ | :--------------------------------------------------------------------------------------- |

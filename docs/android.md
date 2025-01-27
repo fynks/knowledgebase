@@ -46,7 +46,7 @@ title: Android
 - [ROX](https://play.google.com/store/apps/details?id=com.jazz.rox)
 - [Daraz](https://play.google.com/store/apps/details?id=com.daraz.android)
 
-## Droid-ify
+### Droid-ify
 - TBD
 
 ## Flash a custom recovery
