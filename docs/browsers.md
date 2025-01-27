@@ -13,7 +13,7 @@ title: Browsers
 - [Mycroft (Google)](https://mycroftproject.com/install.html?id=118251&basename=anti-google&icontype=ico&name=G)
 
 ### Policy Configuration
-Download the [Firefox Policies](https://raw.githubusercontent.com/fynks/configs/main/browsers/policies.json) file and place it in one of these locations:
+Download the [Firefox Policies](https://raw.githubusercontent.com/fynks/configs/main/browsers/configs/policies.json) file and place it in one of these locations:
 
 Linux:
 ```bash
@@ -70,10 +70,10 @@ https://inoreader.com
 
 ### Extension configs
 
-- [UBlock Origin](https://raw.githubusercontent.com/fynks/configs/main/browsers/u_block_origin_configs.txt)
-- [LibRedirect](https://raw.githubusercontent.com/fynks/configs/main/browsers/libredirect.json)
-- [ImproveTube](https://raw.githubusercontent.com/fynks/configs/main/browsers/improvedtube.json)
-- [Tampermonkey Script](https://raw.githubusercontent.com/fynks/configs/main/browsers/tampermonkey_scripts.zip)
+- [UBlock Origin](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/u_block_origin_configs.txt)
+- [LibRedirect](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/libredirect.json)
+- [ImproveTube](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/improvedtube.json)
+- [Tampermonkey Script](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/tampermonkey_scripts.zip)
 
 
 ### Userscripts
