@@ -2,61 +2,88 @@
 layout: doc
 title: Browsers
 ---
+
 # Browser Setup Guide
 
+A comprehensive guide for setting up and configuring modern browsers with focus on privacy, security, and productivity.
+
+## Table of Contents
+- [Firefox Setup](#firefox-setup)
+- [Essential Extensions](#essential-extensions)
+- [Extension Configurations](#extension-configurations)
+- [Userscripts](#userscripts)
+- [Custom Filters](#custom-filters)
+- [Bookmarklets](#bookmarklets)
+
 ## Firefox Setup
-### Customizations
-- [Better-Fox](https://github.com/yokoffing/Betterfox/blob/main/user.js)
-- [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix/releases/latest)
 
-### Search Configuration 
-- [Mycroft (Google)](https://mycroftproject.com/install.html?id=118251&basename=anti-google&icontype=ico&name=G)
+### Performance & Privacy Customizations
 
-### Policy Configuration
-Download the [Firefox Policies](https://raw.githubusercontent.com/fynks/configs/main/browsers/configs/policies.json) file and place it in one of these locations:
+#### Betterfox Configuration
+[Betterfox](https://github.com/yokoffing/Betterfox/blob/main/user.js) provides optimized Firefox settings for better performance, privacy, and security.
 
-Linux:
+**Installation:**
+1. Download the `user.js` file
+2. Place it in your Firefox profile folder
+3. Restart Firefox
+
+#### UI Improvements
+[Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix/releases/latest) modernizes Firefox's interface with Proton design improvements.
+
+### Search Engine Configuration
+
+- **Google**: [Mycroft Installation](https://mycroftproject.com/install.html?id=118251&basename=anti-google&icontype=ico&name=G)
+
+### Enterprise Policy Configuration
+
+Download the [Firefox Policies](https://raw.githubusercontent.com/fynks/configs/main/browsers/configs/policies.json) file and place it in the appropriate directory:
+
+**Linux:**
 ```bash
-/etc/firefox/policies
+sudo mkdir -p /etc/firefox/policies
+sudo wget -O /etc/firefox/policies/policies.json https://raw.githubusercontent.com/fynks/configs/main/browsers/configs/policies.json
 ```
 
-Windows:
+**Windows:**
 ```bash
-C:\Program Files\Mozilla Firefox\distribution
+# Create directory if it doesn't exist
+C:\Program Files\Mozilla Firefox\distribution\policies.json
 ```
 
-### Cookie Exception List
 
-```
+### Cookie Management
+
+#### Trusted Sites Exception List
+The following sites are commonly whitelisted for cookies and functionality:
+
+```txt
 https://github.com
 ```
-
 ```txt
 https://netlify.com
 ```
-
 ```txt
 https://chat.openai.com
 ```
-
 ```txt
 https://auth.openai.com
 ```
-
 ```txt
 https://chatgpt.com
 ```
-
 ```txt
 https://google.com
 ```
-
 ```txt
 https://inoreader.com
 ```
 
-## Extensions
+**To add cookie exceptions in Firefox:**
+1. Go to `Settings` > `Privacy & Security`
+2. Under `Cookies and Site Data`, click `Manage Exceptions`
+3. Add each URL with "Allow" permission
 
+## Essential Extensions
 | **Extensions**     | **Firefox**                                                                       | **Chrome**                                                                                                  |
 | :----------------- | :-------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
 | Ublock Origin      | [Get](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)              | [Get](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)             |
@@ -76,26 +103,42 @@ https://inoreader.com
 - [Tampermonkey Script](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/tampermonkey_scripts.zip)
 
 
-## Userscripts
-- [Github Repo](https://github.com/fynks/userscripts)
+## Custom Filters
+### Content Blocking Rules
 
-### Blocklists
-#### Reddit Filters
+#### Reddit Enhancement Filters
+Add these filters to uBlock Origin for a cleaner Reddit experience:
+
 ```css
 /* Remove Reddit Award buttons */
 www.reddit.com,sh.reddit.com##award-button
 
 /* Remove Promoted/Sponsored content */
 www.reddit.com##.promotedlink
+
+/* Hide Reddit Premium promotions */
+www.reddit.com##.premium-banner-outer
+
+/* Remove "Get Coins" button */
+www.reddit.com##[data-testid="give-award-button"]
 ```
 
 ## Bookmarklets
 
-- G Translate
-``` js
+Useful JavaScript bookmarklets for enhanced browsing:
+
+### Translation Tools
+
+#### Google Translate Current Page
+Instantly translate any webpage to English:
+```javascript
 javascript:void(open('https://translate.google.com/translate?hl=en&sl=auto&tl=en&u=' + encodeURIComponent(location.href)));
 ```
-- Edit current page
-```js
+
+### Page Editing
+
+#### Enable Page Editing
+Make any webpage editable for quick modifications:
+```javascript
 javascript:document.body.contentEditable = 'true'; document.designMode='on'; void 0
 ```
