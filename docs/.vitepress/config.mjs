@@ -48,28 +48,22 @@ export default defineConfig({
 
     // Enhanced navigation with better organization
     nav: [
-      { text: 'Home', link: '/' },
       {
-        text: 'Operating Systems',
+        text: 'Linux',
         items: [
-          {
-            text: 'Linux',
-            items: [
-              { text: 'Setup Guide', link: '/linux/Setup' },
-              { text: 'GRUB Configuration', link: '/linux/grub' },
-              { text: 'Fish Shell', link: '/linux/fish' }
-            ]
-          },
-          { text: 'Windows', link: '/windows' }
+          { text: 'Setup', link: '/linux/Setup' },
+          { text: 'Grub', link: '/linux/grub' },
+          { text: 'Fish Shell', link: '/linux/fish' }
         ]
       },
+      { text: 'Browsers', link: '/browsers' },
+      { text: 'Windows', link: '/windows' },
       {
-        text: 'Applications & Tools',
+        text: 'Tools',
         items: [
-          { text: 'Git Version Control', link: '/git' },
-          { text: 'JDownloader2', link: '/jdownloader2' },
-          { text: 'Browser Configuration', link: '/browsers' },
-          { text: 'Android Tools', link: '/android' }
+          { text: 'Android', link: '/android' },
+          { text: 'Git', link: '/git' },
+          { text: 'JDownloader', link: '/jdownloader2' }
         ]
       }
     ],
@@ -77,7 +71,7 @@ export default defineConfig({
     // Enhanced sidebar with better structure and descriptions
     sidebar: [
       {
-        text: '🐧 Linux',
+        text: 'Linux',
         collapsed: false,
         items: [
           { text: 'System Setup', link: '/linux/Setup' },
@@ -85,27 +79,14 @@ export default defineConfig({
           { text: 'Fish Shell Configuration', link: '/linux/fish' }
         ]
       },
+      { text: 'Browsers', link: '/browsers' },
+      { text: 'Windows', link: '/windows' },
+      { text: 'Android', link: '/android' }, 
       {
-        text: '🖥️ Operating Systems',
-        collapsed: true,
+        text: 'Tools & Apps',
         items: [
-          { text: 'Windows Configuration', link: '/windows' }
-        ]
-      },
-      {
-        text: '🔧 Development Tools',
-        collapsed: true,
-        items: [
-          { text: 'Git Version Control', link: '/git' },
-          { text: 'Browser Setup', link: '/browsers' }
-        ]
-      },
-      {
-        text: '📱 Applications',
-        collapsed: true,
-        items: [
-          { text: 'Android Development', link: '/android' },
-          { text: 'JDownloader2', link: '/jdownloader2' }
+          { text: 'Git', link: '/git' },
+          { text: 'JDownloader', link: '/jdownloader2' }
         ]
       }
     ],
@@ -116,21 +97,11 @@ export default defineConfig({
       label: 'Table of Contents'
     },
     
-    // Social links and external references
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/fynks/knowledgebase' }
-    ],
     
     // Enhanced footer with more information
     footer: {
-      message: 'Built with ❤️ using VitePress • Open source knowledge sharing',
+      message: 'Personal Knowledge Base',
       copyright: 'Copyright © 2024-present Ali (Fynks)'
-    },
-    
-    // Edit link configuration
-    editLink: {
-      pattern: 'https://github.com/fynks/knowledgebase/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
     },
     
     // Last updated configuration
