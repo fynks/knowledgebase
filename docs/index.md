@@ -6,13 +6,13 @@ hero:
   tagline: Linux, Windows, and tools documentation
   image:
     src: /images/logo.svg
-    alt: Site Logo
+    alt: Knowledge Base Logo
   actions:
     - theme: brand
-      text: Get Started
+      text: 🚀 Get Started
       link: /linux/Setup
     - theme: alt
-      text: View on GitHub
+      text: 📁 View Source
       link: https://github.com/fynks/configs
 
 features:
