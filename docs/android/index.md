@@ -4,6 +4,9 @@ title: Android
 ---
 # Android Setup
 
+## Modules
+- TBD
+
 ## Recommended Applications
 ### Play Store
 
@@ -25,7 +28,6 @@ title: Android
 - [Snapchat](https://play.google.com/store/apps/details?id=com.snapchat.android) - Photo messaging
 
 #### Productivity
-- [Tasks](https://play.google.com/store/apps/details?id=com.google.android.apps.tasks) - Task management
 - [Inoreader](https://play.google.com/store/apps/details?id=com.innologica.inoreader) - RSS reader
 - [ONLYOFFICE Documents](https://play.google.com/store/apps/details?id=com.onlyoffice.documents) - Office suite
 - [MJ PDF](https://play.google.com/store/apps/details?id=com.gitlab.mudlej.MjPdfReader) - PDF reader
@@ -38,13 +40,6 @@ title: Android
 #### Utilities
 - [1DM+](https://play.google.com/store/apps/details?id=idm.internet.download.manager.plus) - Download manager
 - [Microsoft SwiftKey Beta](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey.beta) - Keyboard
-
-#### Payment Apps
-- [JazzCash](https://play.google.com/store/apps/details?id=com.techlogix.mobilinkcustomer)
-- [easypaisa](https://play.google.com/store/apps/details?id=pk.com.telenor.phoenix)
-- [NayaPay](https://play.google.com/store/apps/details?id=com.nayapay.app)
-- [ROX](https://play.google.com/store/apps/details?id=com.jazz.rox)
-- [Daraz](https://play.google.com/store/apps/details?id=com.daraz.android)
 
 ### Droid-ify
 - TBD
