@@ -62,29 +62,25 @@ sudo pacman -Sy
 
 ## KDE Desktop Configuration
 
-### Import KDE Configuration
+### Restore Keyboard Shortcuts
 
-If you have a saved KDE configuration, you can restore it using `konsave`:
+Follow these steps to restore your custom keyboard shortcuts:
 
-1. **Install konsave** (if not already installed):
+1. **Download the configuration file:**
+   ```bash
+   wget https://raw.githubusercontent.com/fynks/configs/refs/heads/main/backups/kde-shortcuts.kksrc
+   ```
 
-```bash
-yay -S konsave
-```
+2. **Import the shortcuts:**
+   - Open **System Settings** (Settings app)
+   - Navigate to **Shortcuts** (or **Keyboard** → **Shortcuts**)
+   - Click **Import Scheme...** or **Import**
+   - Select the downloaded `kde-shortcuts.kksrc` file
+   - Click **Apply** to activate the shortcuts
 
-2. **Import configuration:**
-
-```bash
-# Import the configuration file
-konsave -i manjaro-kde.knsv
-```
-
-3. **Apply configuration:**
-
-```bash
-# Apply the imported configuration
-konsave -a manjaro-kde
-```
+::: tip
+You can also access System Settings quickly by pressing `Alt + F2` and typing "shortcuts"
+:::
 
 ### Improve Boot Time
 
