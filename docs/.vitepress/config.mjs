@@ -63,7 +63,8 @@ export default defineConfig({
         items: [
           { text: 'Android', link: '/android' },
           { text: 'Git', link: '/git' },
-          { text: 'JDownloader', link: '/jdownloader2' }
+          { text: 'JDownloader', link: '/jdownloader2' },
+          {text: 'VLC', link: '/linux/vlc' }
         ]
       }
     ],
@@ -86,7 +87,8 @@ export default defineConfig({
         text: 'Tools & Apps',
         items: [
           { text: 'Git', link: '/git' },
-          { text: 'JDownloader', link: '/jdownloader2' }
+          { text: 'JDownloader', link: '/jdownloader2' },
+          {text: 'VLC', link: '/linux/vlc' }
         ]
       }
     ],
