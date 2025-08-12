@@ -10,7 +10,7 @@ A comprehensive guide for setting up and configuring modern browsers with focus 
 ## Table of Contents
 - [Firefox Setup](#firefox-setup)
 - [Essential Extensions](#essential-extensions)
-- [Extension Configurations](#extension-configurations)
+- [Extension Configurations](#extension-configs)
 - [Userscripts](#userscripts)
 - [Custom Filters](#custom-filters)
 - [Bookmarklets](#bookmarklets)
@@ -50,39 +50,6 @@ sudo wget -O /etc/firefox/policies/policies.json https://raw.githubusercontent.c
 C:\Program Files\Mozilla Firefox\distribution\policies.json
 ```
 
-
-### Cookie Management
-
-#### Trusted Sites Exception List
-The following sites are commonly whitelisted for cookies and functionality:
-
-```txt
-https://github.com
-```
-```txt
-https://netlify.com
-```
-```txt
-https://chat.openai.com
-```
-```txt
-https://auth.openai.com
-```
-```txt
-https://chatgpt.com
-```
-```txt
-https://google.com
-```
-```txt
-https://inoreader.com
-```
-
-**To add cookie exceptions in Firefox:**
-1. Go to `Settings` > `Privacy & Security`
-2. Under `Cookies and Site Data`, click `Manage Exceptions`
-3. Add each URL with "Allow" permission
-
 ## Essential Extensions
 | **Extensions**     | **Firefox**                                                                       | **Chrome**                                                                                                  |
 | :----------------- | :-------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
@@ -98,9 +65,6 @@ https://inoreader.com
 ### Extension configs
 
 - [UBlock Origin](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/u_block_origin_configs.txt)
-- [LibRedirect](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/libredirect.json)
-- [ImproveTube](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/improvedtube.json)
-- [Tampermonkey Script](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/tampermonkey_scripts.zip)
 
 
 ## Custom Filters
