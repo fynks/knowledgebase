@@ -5,7 +5,15 @@ title: Android
 # Android Setup
 
 ## Modules
-- TBD
+| Name | Links |
+| :--- | :--- |
+| SukiSU-Ultra | https://github.com/SukiSU-Ultra/SukiSU-Ultra |
+| Zygisk Next | https://github.com/Dr-TSNG/ZygiskNext |
+| Zygisk NoHello | https://github.com/MhmRdd/NoHello/releases |
+| Shamiko | https://github.com/LSPosed/LSPosed.github.io/releases |
+| SUSFS | https://github.com/sidex15/susfs4ksu-module/releases |
+| Tricky Store | https://github.com/5ec1cff/TrickyStore/releases |
+| YuriKey | https://github.com/dpejoh/yurikey/releases |
 
 ## Recommended Applications
 ### Play Store
