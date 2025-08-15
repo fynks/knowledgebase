@@ -28,10 +28,9 @@ iwr -useb https://christitus.com/win | iex
 | **Application**               | **Download Link**                                                                        |
 | :---------------------------- | :--------------------------------------------------------------------------------------- |
 | **Firefox**                   | [Download](https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US) |
-| **Chrome**                    | [Download](https://www.google.com/intl/en/chrome/?standalone=1)                          |
+| **Brave**                    | [Download](https://github.com/brave/brave-browser/releases)                          |
 | **VLC**                       | [Download](https://www.videolan.org/vlc/download-windows.html)                           |
 | **7-Zip**                     | [Download](https://www.7-zip.org/download.html)                                          |
-| **Image Glass**               | [Download](https://github.com/d2phap/ImageGlass/releases)                                |
 | **Sublime Text**              | [Download](https://www.sublimetext.com/download_thanks?target=win-x64)                   |
 | **Internet Download Manager** | [Download](https://www.internetdownloadmanager.com/download.html)                        |
 | **Microsoft Office**          | [Visit](https://massgrave.dev/genuine-installation-media.html)                           |
