@@ -8,7 +8,7 @@ If VLC shows codec errors (e.g., “codec not supported”), install the require
 
 On Arch-based systems (pacman):
 ```bash
-sudo pacman -S --asdeps vlc-plugin-ffmpeg vlc-plugin-aribb24 vlc-plugin-matroska vlc-plugin-srt vlc-plugin-svg
+sudo pacman -S vlc-plugins-all
 ```
 
 Notes:
