@@ -65,6 +65,7 @@ C:\Program Files\Mozilla Firefox\distribution\policies.json
 ### Extension configs
 
 - [UBlock Origin](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/u_block_origin_configs.txt)
+- [ImprovedTube](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/improvedtube.json)
 
 
 ## Custom Filters
