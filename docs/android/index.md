@@ -4,23 +4,12 @@ title: Android
 ---
 # Android Setup
 
-## Modules
-| Name | Links |
-| :--- | :--- |
-| SukiSU-Ultra | https://github.com/SukiSU-Ultra/SukiSU-Ultra |
-| Zygisk Next | https://github.com/Dr-TSNG/ZygiskNext |
-| Zygisk NoHello | https://github.com/MhmRdd/NoHello/releases |
-| Shamiko | https://github.com/LSPosed/LSPosed.github.io/releases |
-| SUSFS | https://github.com/sidex15/susfs4ksu-module/releases |
-| Tricky Store | https://github.com/5ec1cff/TrickyStore/releases |
-| YuriKey | https://github.com/dpejoh/yurikey/releases |
-
 ## Recommended Applications
 ### Play Store
 
 #### Security & Privacy
 - [Bitwarden](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden) - Password manager
-- [AdGuard Mail](https://play.google.com/store/apps/details?id=com.adguard.email) - Email protection
+- [SimpleLogin](https://play.google.com/store/apps/details?id=io.simplelogin.android) - Email protection
 - [AdGuard VPN](https://play.google.com/store/apps/details?id=com.adguard.vpn) - VPN service
 - [Ente Auth](https://play.google.com/store/apps/details?id=io.ente.auth) - 2FA authenticator
 
@@ -38,7 +27,6 @@ title: Android
 #### Productivity
 - [Inoreader](https://play.google.com/store/apps/details?id=com.innologica.inoreader) - RSS reader
 - [ONLYOFFICE Documents](https://play.google.com/store/apps/details?id=com.onlyoffice.documents) - Office suite
-- [MJ PDF](https://play.google.com/store/apps/details?id=com.gitlab.mudlej.MjPdfReader) - PDF reader
 
 #### Media
 - [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc) - Media player
@@ -48,9 +36,6 @@ title: Android
 #### Utilities
 - [1DM+](https://play.google.com/store/apps/details?id=idm.internet.download.manager.plus) - Download manager
 - [Microsoft SwiftKey Beta](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey.beta) - Keyboard
-
-### Droid-ify
-- TBD
 
 ## Flash a custom recovery
 ```sh

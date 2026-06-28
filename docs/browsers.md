@@ -51,42 +51,20 @@ C:\Program Files\Mozilla Firefox\distribution\policies.json
 ```
 
 ## Essential Extensions
-| **Extensions**     | **Firefox**                                                                       | **Chrome**                                                                                                  |
-| :----------------- | :-------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
-| Ublock Origin      | [Get](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)              | [Get](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)             |
-| Bitwarden          | [Get](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) | [Get](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb) |
-| Addy.io            | [Get](https://addons.mozilla.org/en-US/firefox/addon/addy_io/)                    | [Get](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe) |
-| Tampermonkey       | [Get](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)               | [Get](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)              |
-| LibRedirect        | [Get](https://addons.mozilla.org/firefox/addon/libredirect/)                      | [Get](https://libredirect.github.io/download_chromium.html)                                   |
-| Firefox Containers | [Get](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)   | ---                                                                                                         |
-| ImproveTube     | [Get](https://addons.mozilla.org/en-US/firefox/addon/youtube-addon/)               | [Get](https://chromewebstore.google.com/detail/improve-youtube-%F0%9F%8E%A7-for-yo/bnomihfieiccainjcjblhegjgglakjdd)                           |
-| Sponsor Block      | [Get](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)               | [Get](https://chrome.google.com/webstore/detail/mnjggcdmjocbbbhaepdhchncahnbgone)                           |
+| **Extensions**     | **Firefox**                                                                       | **Chrome**                                                                                                           |
+| :----------------- | :-------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------- |
+| Ublock Origin      | [Get](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)              | [Get](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)                      |
+| Bitwarden          | [Get](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) | [Get](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)          |
+| Violentmonkey      | [Get](https://addons.mozilla.org/firefox/addon/violentmonkey/)                    | [Get](https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag)                     |
+| Firefox Containers | [Get](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)   | ---                                                                                                                  |
+| Sponsor Block      | [Get](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)               | [Get](https://chrome.google.com/webstore/detail/mnjggcdmjocbbbhaepdhchncahnbgone)                                    |
 
 ### Extension configs
 
 - [UBlock Origin](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/u_block_origin_configs.txt)
-- [ImprovedTube](https://raw.githubusercontent.com/fynks/configs/main/browsers/extensions/improvedtube.json)
 
 
-## Custom Filters
-### Content Blocking Rules
-
-#### Reddit Enhancement Filters
-Add these filters to uBlock Origin for a cleaner Reddit experience:
-
-```css
-/* Remove Reddit Award buttons */
-www.reddit.com,sh.reddit.com##award-button
-
-/* Remove Promoted/Sponsored content */
-www.reddit.com##.promotedlink
-
-/* Hide Reddit Premium promotions */
-www.reddit.com##.premium-banner-outer
-
-/* Remove "Get Coins" button */
-www.reddit.com##[data-testid="give-award-button"]
-```
+---
 
 ## Bookmarklets
 
